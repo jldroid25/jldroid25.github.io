@@ -3,20 +3,203 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>James Lemaire</title>
+    <title>JLDroid25</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src=".js/bootstrap.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!-- Jumbotron section for Carousel-->
+    <div class="parallax">
+
+    <!--Site NavBar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" 
+            data-toggle="collapse" data-target="#myNavbar">
+           
+            <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span> 
+           <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">JLDroid25</a>
+           </div> 
+           
+           <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#portfolio">Portfollio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Header: Jumbotron section for Carousel-->
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>James Lemaire Portfollio</h1>
-        <p>Showcasing Android and Ios Development skills</p>
+        <h1>James Lemaire</h1>
+        <br/>
+              <!--Profile Pic -->
+    <img src="./images/Portrait.JPG" class="img-circle" 
+    alt="ProfilePic" width="140" height="160">
+
+    <span>
+    <p>Hello, I am an Android and Ios Developer.
+     I Use the Java and Android SDK to build native applications. 
+     I also use Swift and Xcode to build native ios applications.</p>
+     </span>
+            
+       
     </div>
+
+  
+
+    <!--Portfollio Grid1  4 x 4 Columns -->
+
+    <div class="container-fluid bg-3 text-center">    
+            <h3 id="portfolio">Portfolio</h3><br>
+
+            <a href="#">
+            <img src="./images/appleIcon.png" class="img-rounded" 
+            alt="AppleStore" width="90">
+            </a>
+
+            <a href="#">
+            <img src="./images/googleIcon.png" class="img-rounded" 
+            alt="GoogleStore" width="70" style="margin-left:25px">
+            </a>
+            <br/><br/>
+
+            <div class="row">
+              <div class="col-sm-3">
+                  
+                <h4>Udacity Android Dev Apps</h4>
+                <a href="https://github.com/jldroid25/Udacity-Android-Basic-Developer" target="blank" >
+                <img src="./portfolio/home.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+              </div>
+              <div class="col-sm-3"> 
+                <h4>Udacity Android IOS Dev Apps</h4>
+                <a href="https://github.com/jldroid25/Udacity-IOS-Developer" target="blank">
+                <img src="./portfolio/jj1.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+              </div>
+              <div class="col-sm-3"> 
+                    <h4>Udemy Android Dev Apps</h4>
+                    <a href="#" target="blank">
+                <img src="./portfolio/colors.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+              </div>
+              
+              <div class="col-sm-3">
+                <h4>Python  Applications</h4>
+                <a href="https://github.com/jldroid25/Python-BootCamp" target="blank">
+                <img src="./portfolio/numbers.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+              </div>
+            </div>
+            
+          
+
+    <!--Resume Section with a Card/pic -->
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+            
+                    <h1 id="resume">Resume</h1>
     
+                   <span><h2>Education:</h2></span> 
+
+                    <h3>Udacity:</h3>
+                    <span>
+                     <p>Completed: IOS - Android Development 2018</p>
+                     </span>
+                    <img src="./portfolio/googleScholar.png" class="img-rounded" 
+    alt="ProfilePic" width="250" height="200">
+                  
+                    <h3>Udemy:</h3>
+                    <span>
+                       <p> Completed: Android - Java - Python Development 2017 - 2018</p></span>
+
+                    <h3>C.U.N.Y Brooklyn College :</h3>
+                    <span><p> B.A in Biology - Graduated: 2007</p>
+                    </span> 
+    
+              
+    
+                        <h1>Skills:</h1>
+                        <p><strong>Android, Java, Swift IOS, Python, Bootstrap, HTML5, CSS</strong></p>
+                        
+                        <h2>Experiences:</h2>
+                        <h3>Freelancer Mobile Developer: 2015 - Present</h3>
+                        <p>Using Android SDK to build native applications. 
+                                Follow material design for best practice which including User input, 
+                                Adapters, Fragments, JSON HTTP Requests, SQLite, Contracts, 
+                                and Database Helpers, URI, and Content Providers.</p>
+                    
+
+                        <h2>Statum Gaming:</h2>
+                        <h3>Application Developer: 2013 - 2015</h3>
+                        <p>Built mobile games portfolio website using Bootstrap, HTML5, CSS, 
+                            JavaScript and Jquery.
+                            Creating IOS,  Android games using Unity-3d, 
+                            and JavaScript for games’ functionalities and State Machines.</p>
+                       
+    
+              <h3>Hired By Matrix: 2012 - 2013</h3>
+              <h4>Application Developer</h4>
+                        <p>Helped Migrated old legacy php site to Drupal 7.
+                                Developed local Drupal 7 modules, 
+                                debugged existing legacy PHP4 applications using PHP5 and Drupal APIs.</p>
+              
+                                <p>Developed, updated Site Frontend themes, and web apps.
+                    Built new internal web pages and sub sites using the existing 
+                    Drupal CMS platform along with PHP, MySQL, JavaScript, and XHTML.
+                    </p>
+              </div>
+                   
+    
+
+    <!--Contact Section -->
+    
+    <!--Footer w Social media/LinkedIn -->
+    <footer class="container-fluid text-center">
+
+            <h3 id="contact">Contact Me:</h3>
+            <a href="https://www.linkedin.com/in/james-lemaire-86b452160/" target="blank">
+                    <img src="./images/linkedIn.png" class="img-rounded" 
+                    alt="AppleStore" width="90">
+                    </a>
+        
+                    <a href="https://github.com/jldroid25" target="blank">
+                    <img src="./images/github.jpg" class="img-rounded" 
+                    alt="GoogleStore" width="90" style="margin-left:25px">
+                    </a>
+                    <br><br>
+
+                      <!--Site NavBar -->
+    <nav class="navbar navbar-inverse">
+            <div class="container-fluid navbar-left">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfollio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+          </footer>
+          <br>
+
+</div>
+
 </body>
 </html>
